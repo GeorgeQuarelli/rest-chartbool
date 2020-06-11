@@ -1,3 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top:60px;
+  padding-bottom: 50px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#select_2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  width: 60px;
+  height: 19px;
+}
+
 #vendite-mensili {
   text-align: center;
   margin: auto;
