@@ -172,9 +172,36 @@ $(document).ready(function(){
 
 
 
-
-
-
-
+  // function venditori_select (venditore) {
+  //   for (let index = 0; index < venditor.length; index++) {
+  //     $('#salesman').append('<option value="'venditore'">'+ venditor[index] +'</option>');
+  //   }
+  // }
+  //
+  //
+  // function mesi_select (mese) {
+  //   for (let index = 0; index < mese.length; index++) {
+  //     $('#date').append('<option value="'mese'">'+ mese[index] +'</option>');
+  //   }
+  // }
+  //
+  // $('button').on('click', function(){
+  //
+  //   $.ajax({
+  //     'url':"http://157.230.17.132:4020/sales",
+  //     'method':'POST',
+  //     'data': {
+  //       "amount": importo,
+  //       "salesman": venditore,
+  //       "date": data
+  //     },
+  //       'success': function(data) {
+  //
+  //       },
+  //       'error': function() {
+  //         console.log('errore');
+  //       }
+  //   })
+  // })
 
 });
